@@ -56,17 +56,18 @@ h5 {
     font-family: 'Lato', serif;
     font-weight: 300;
     /*color: #4D70B8;*/
-    /*color: #686868;*/
-    color: #000000;
+    color: #686868;
+    /*color: #FFFFFF;*/
     font-size: 50px;
     top: 0px;
-    left: 315px;
+    left: 650px;
     width:100%;
 
 }
 
 a {
     color: #4D70B8;
+    /*color: #000000;*/
 
 }
 
