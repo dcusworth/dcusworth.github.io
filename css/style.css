@@ -57,15 +57,17 @@ h5 {
     font-weight: 300;
     /*color: #4D70B8;*/
     color: #686868;
+    /*color: #FFFFFF;*/
     font-size: 50px;
     top: 0px;
-    left: 315px;
+    left: 650px;
     width:100%;
 
 }
 
 a {
     color: #4D70B8;
+    /*color: #000000;*/
 
 }
 
@@ -155,7 +157,7 @@ a.rpanel:hover{ color: #fff; }
  }
 
 
-#headshot { background: url('../img/bioshot.jpg')no-repeat; width: 300px; height: 408px; margin: 0 auto; position: relative; bottom: 0px;  right: 0px; }
+#headshot { background: url('../img/resize.jpg')no-repeat; width: 300px; height: 408px; margin: 0 auto; position: relative; bottom: 0px;  right: 0px; }
 
 .headshot {
     width: 300px;
