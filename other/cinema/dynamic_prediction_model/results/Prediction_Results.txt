@@ -1,0 +1,47 @@
+
+------- CINEMASCORE DYNAMIC PREDICTION RESULTS ------
+
+The critic(s) 
+
+['Tom Gliatto', 'Alex Abad-Santos', 'Scott Menzel', 'Kelly Lawler', 'Don Kaye', 'Chris Hunneysett', 'John Hazelton', 'Uri Klein', 'Andrew Barker', 'Mark Hughes', 'Mark Daniell', "Anthony O'Connor", 'Molly Freeman', 'Alicia Lutes', 'Garth Franklin', 'Abigail Chandler', 'Allison Shoemaker', 'Ben Sin', 'Joshua Yehl', 'Dave Schilling', 'Conner Schwerdtfeger', 'Angie Han']
+
+are not contained in the training set and were excluded from the model
+
+The following critics were used to during fitting: 
+
+['Susan Granger', 'Roger Moore', 'Julian Roman', 'Matthew Turner', 'Emma Simmonds', 'JimmyO', 'Matthew Pejkovic', 'Peter Travers', 'Michael Phillips', 'Chris Nashawaty', 'Matt Donato', 'Edward Douglas', 'Matthew Toomey', 'Travis Hopson', 'Simon Miraudo']
+
+Size of training set: 1638
+
+Potential models: 2133
+Time to fit: 19.14 seconds
+Baseline (Genre + Month of Release) Prediction: 2.81
+
+------------ Baseline - beating models --------------
+Models fit: 139
+Mean CinemaScore prediction: 1.8
+5th Percentile CinemaScore prediction 0.85
+95th Percentile CinemaScore prediction 3.62
+----------------- All models ------------------------
+Models fit: 508
+Mean CinemaScore prediction: 1.96
+5th Percentile CinemaScore prediction 0.93
+95th Percentile CinemaScore prediction 3.42
+-----------------------------------------------------
+
+Translate CinemaScores using the following table:
+
+0     A+
+1      A
+2     A-
+3     B+
+4      B
+5     B-
+6     C+
+7      C
+8     C-
+9     D+
+10     D
+11    D-
+12     F
+dtype: object
