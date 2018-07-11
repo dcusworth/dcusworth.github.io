@@ -6,6 +6,9 @@ Author: Daniel Cusworth
 /*= GENERAL STYLING
 --------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
 body{
 	margin: 0;
 	padding: 0;
@@ -13,7 +16,7 @@ body{
 }
 
 h1 { 
-    font-family:"Lato";
+    font-family:"Roboto";
 	font-weight:400;
 	font-size: 100px;
 	text-align: center;
@@ -24,7 +27,7 @@ h1 {
 }
 
 h2 {
-   font-family:"Lato";
+   font-family:"Roboto";
    font-weight: 700;
    font-size: 30px;
    text-align: center;
@@ -34,7 +37,7 @@ h2 {
 }
 
 h3 {
-   font-family: "Lato";
+   font-family: "Roboto";
    font-weight: 400;
    font-size: 16px;
    text-align: center;
@@ -53,7 +56,7 @@ h3 {
 
 h5 {
     position: absolute;
-    font-family: 'Lato', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     /*color: #4D70B8;*/
     color: #686868;
@@ -79,7 +82,7 @@ a {
 
 .box h6 {
     position: relative;
-    font-family: 'Lato', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: white;
     font-size: 40px;
@@ -113,7 +116,7 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #nav { width: 410px; float: right; margin-top: 20px; }
-#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Lato"; font-weight: 300; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Roboto"; font-weight: 300; }
 #nav ul{
 	list-style: none;
 	display: block;
@@ -127,7 +130,7 @@ a.rpanel:hover{ color: #fff; }
 	padding-left: 21px;
 }
 
-#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Lato'; font-weight: 300 }
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Roboto'; font-weight: 300 }
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1;  }
 
@@ -136,7 +139,7 @@ a.rpanel:hover{ color: #fff; }
 /*= QUOTES AND SOME ELEMENTS
 --------------------------------------------------------*/
 .quotes {   
- font-family: 'Lato', serif;
+ font-family: 'Roboto', sans-serif;
    font-weight: 300;
    color: #686868;
    font-size: 30px;
