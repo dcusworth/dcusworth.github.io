@@ -6,7 +6,7 @@ Author: Daniel Cusworth
 /*= GENERAL STYLING
 --------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 
 body{
@@ -99,8 +99,8 @@ a {
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 960px; line-height: -5em;}
 .clear { clear: both; }
-a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
-a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Roboto"; text-decoration: none; margin: 7px 11px; }
+a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Roboto"; text-decoration: none; margin: 7px 11px; }
 
 a.lpanel:hover{ color: #fff; }
 a.rpanel:hover{ color: #fff; }
@@ -115,16 +115,16 @@ a.rpanel:hover{ color: #fff; }
 	margin-top: 30px;
 }
 
-#nav { width: 410px; float: right; margin-top: 20px; }
+#nav { width: 510px; float: right; margin-top: 20px;}
 #logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Roboto"; font-weight: 300; }
-#nav ul{
+#nav ul {
 	list-style: none;
 	display: block;
 	margin: 0 auto;
 	list-style: none;	
 }
 
-#nav li{
+#nav li {
 	margin-top: 9px;	
 	float: left;
 	padding-left: 21px;
